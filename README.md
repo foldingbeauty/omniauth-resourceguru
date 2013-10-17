@@ -1,5 +1,6 @@
 # OmniAuth strategy for ResourceGuruApp
 
+[![Gem Version](https://badge.fury.io/rb/omniauth-resourceguru.png)](http://badge.fury.io/rb/omniauth-resourceguru)
 [![CI Build Status](https://secure.travis-ci.org/kamerblauwlicht/omniauth-resourceguru.png?branch=master)][travis]
 [![Code Climate](https://codeclimate.com/github/kamerblauwlicht/omniauth-resourceguru)][codeclimate]
 
