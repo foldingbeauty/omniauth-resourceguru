@@ -1,0 +1,4 @@
+omniauth-resourceguru
+=====================
+
+omniauth-resourceguru
