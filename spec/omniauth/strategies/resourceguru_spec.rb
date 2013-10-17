@@ -24,7 +24,7 @@ describe OmniAuth::Strategies::ResourceGuru do
     end
 
     it 'should have correct token url' do
-      subject.options.client_options.token_url.should eq('https://api.resourceguruapp.com/oauth/access_token')
+      subject.options.client_options.token_url.should eq('https://api.resourceguruapp.com/oauth/token')
     end
   end
 

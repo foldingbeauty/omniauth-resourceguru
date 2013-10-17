@@ -8,7 +8,7 @@ module OmniAuth
       option :client_options, {
         :site => 'https://api.resourceguruapp.com/v1',
         :authorize_url => 'https://api.resourceguruapp.com/oauth/authorize',
-        :token_url => 'https://api.resourceguruapp.com/oauth/access_token'
+        :token_url => 'https://api.resourceguruapp.com/oauth/token'
       }
 
       def accounts
