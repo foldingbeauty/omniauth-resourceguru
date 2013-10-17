@@ -11,6 +11,23 @@ module OmniAuth
         :token_url => 'https://api.resourceguruapp.com/oauth/token'
       }
 
+      uid { accounts[0]['id'].to_s }
+
+      info do
+        {
+          'nickname' => accounts[0]['login'],
+          'email' => 'none',
+          'name' => accounts[0]['name'],
+          'subdomain' => accounts[0]['subdomain'],
+        }
+      end
+
+      extra do
+        {:raw_info => accounts}
+      end
+
+     
+
       def accounts
         access_token.options[:mode] = :query
         @accounts ||= access_token.get('accounts').parsed
