@@ -1,4 +1,4 @@
-# OmniAuth ResourceGuru
+# OmniAuth strategy for ResourceGuruApp
 
 
 ## Basic Usage
