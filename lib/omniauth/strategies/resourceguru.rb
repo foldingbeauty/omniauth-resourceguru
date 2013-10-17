@@ -3,7 +3,7 @@ require 'omniauth-oauth2'
 module OmniAuth
   module Strategies
     class ResourceGuru < OmniAuth::Strategies::OAuth2
-      option :name, "ResourceGuru"
+      option :name, "resourceguru"
 
       option :client_options, {
         :site => 'https://api.resourceguruapp.com/v1',
