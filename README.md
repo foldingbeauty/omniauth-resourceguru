@@ -1,5 +1,11 @@
 # OmniAuth strategy for ResourceGuruApp
 
+[![CI Build Status](https://secure.travis-ci.org/kamerblauwlicht/omniauth-resourceguru.png?branch=master)][travis]
+[![Code Climate](https://codeclimate.com/github/kamerblauwlicht/omniauth-resourceguru)][codeclimate]
+
+[travis]: http://travis-ci.org/kamerblauwlicht/omniauth-resourceguru
+[codeclimate]: https://codeclimate.com/github/kamerblauwlicht/omniauth-resourceguru
+
 
 ## Basic Usage
 
