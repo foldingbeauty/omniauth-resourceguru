@@ -14,6 +14,10 @@ describe OmniAuth::Strategies::ResourceGuru do
     subject.stub(:access_token).and_return(access_token)
   end
 
+  after(:all) do
+    WebMock.allow_net_connect!
+  end
+
   context "client options" do
     it 'should have correct site' do
       subject.options.client_options.site.should eq("https://api.resourceguruapp.com/v1")
