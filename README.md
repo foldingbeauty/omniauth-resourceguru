@@ -3,6 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/omniauth-resourceguru.png)](http://badge.fury.io/rb/omniauth-resourceguru)
 [![CI Build Status](https://secure.travis-ci.org/kamerblauwlicht/omniauth-resourceguru.png?branch=master)][travis]
 [![Code Climate](https://codeclimate.com/repos/52612ea256b10226a210067f/badges/e2eb8729541ee2783171/gpa.png)](https://codeclimate.com/repos/52612ea256b10226a210067f/feed)
+[![Coverage Status](https://coveralls.io/repos/kamerblauwlicht/omniauth-resourceguru/badge.png)](https://coveralls.io/r/kamerblauwlicht/omniauth-resourceguru)
 
 [travis]: http://travis-ci.org/kamerblauwlicht/omniauth-resourceguru
 [codeclimate]: https://codeclimate.com/github/kamerblauwlicht/omniauth-resourceguru
