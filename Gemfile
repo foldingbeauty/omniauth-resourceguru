@@ -10,5 +10,7 @@ group :development, :test do
   gem 'rb-fsevent'
   gem 'growl'
   gem 'rake'
+  gem 'rspec'
   gem 'rack-test'
+  gem 'webmock'
 end
