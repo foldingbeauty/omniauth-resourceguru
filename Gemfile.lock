@@ -9,8 +9,6 @@ GEM
   remote: http://rubygems.org/
   specs:
     addressable (2.3.5)
-    codeclimate-test-reporter (0.1.1)
-      simplecov (>= 0.7.1, < 1.0.0)
     coderay (1.0.9)
     coveralls (0.7.0)
       multi_json (~> 1.3)
@@ -104,7 +102,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  codeclimate-test-reporter
   coveralls
   growl
   guard
